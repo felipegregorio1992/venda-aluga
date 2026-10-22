@@ -39,13 +39,13 @@ class AdminPanelTest extends TestCase
         $user = User::factory()->create();
 
         $this->actingAs($user)->post(route('admin.properties.store'), [
-            'title' => 'Casa nova no Umarizal',
+            'title' => 'Casa nova no Cidade Nova',
             'description' => 'Imovel amplo e iluminado, pronto para morar.',
             'type' => 'casa',
             'offer' => 'venda',
             'price' => 990000,
-            'neighborhood' => 'Umarizal',
-            'city' => 'Belem',
+            'neighborhood' => 'Cidade Nova',
+            'city' => 'Parauapebas',
             'state' => 'PA',
             'bedrooms' => 3,
             'bathrooms' => 2,
@@ -54,7 +54,7 @@ class AdminPanelTest extends TestCase
             'featured' => 1,
         ])->assertRedirect(route('admin.properties.index'));
 
-        $this->assertDatabaseHas('properties', ['title' => 'Casa nova no Umarizal']);
+        $this->assertDatabaseHas('properties', ['title' => 'Casa nova no Cidade Nova']);
     }
 
     public function test_admin_can_update_contact_settings(): void

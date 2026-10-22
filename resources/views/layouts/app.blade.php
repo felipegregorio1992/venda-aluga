@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ $metaDescription ?? 'Daisyvane Vieira, corretora de imoveis em Belem e Ananindeua. Casas e apartamentos para viver bem.' }}">
+    <meta name="description" content="{{ $metaDescription ?? 'Daisyvane Vieira, corretora de imoveis em Parauapebas. Casas e apartamentos para viver bem.' }}">
     <title>@yield('title', 'Daisyvane Vieira — Corretora de Imoveis')</title>
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=cormorant-garamond:500,600,700|outfit:400,500,600,700|great-vibes:400" rel="stylesheet" />
@@ -70,7 +70,7 @@
         </div>
         <div class="container footer-bottom">
             <p>&copy; {{ date('Y') }} Daisyvane Vieira. Todos os direitos reservados.</p>
-            <p>Belem - PA</p>
+            <p>Parauapebas - PA</p>
         </div>
     </footer>
 </body>

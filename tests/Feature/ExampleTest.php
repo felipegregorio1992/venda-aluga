@@ -14,14 +14,14 @@ class ExampleTest extends TestCase
     public function test_home_page_shows_featured_properties(): void
     {
         Property::factory()->create([
-            'title' => 'Cobertura duplex no Umarizal',
+            'title' => 'Cobertura duplex no Cidade Nova',
             'featured' => true,
         ]);
 
         $this->get(route('home'))
             ->assertOk()
             ->assertSee('Daisyvane Vieira')
-            ->assertSee('Cobertura duplex no Umarizal');
+            ->assertSee('Cobertura duplex no Cidade Nova');
     }
 
     public function test_properties_index_filters_by_offer(): void
@@ -37,11 +37,11 @@ class ExampleTest extends TestCase
 
     public function test_property_show_page_is_successful(): void
     {
-        $property = Property::factory()->create(['title' => 'Apartamento amplo no Nazare']);
+        $property = Property::factory()->create(['title' => 'Apartamento amplo no Jardim Canada']);
 
         $this->get(route('properties.show', $property))
             ->assertOk()
-            ->assertSee('Apartamento amplo no Nazare');
+            ->assertSee('Apartamento amplo no Jardim Canada');
     }
 
     public function test_about_and_contact_pages_are_successful(): void

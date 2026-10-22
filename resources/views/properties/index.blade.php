@@ -7,7 +7,7 @@
     <div class="container">
         <p class="kicker">Catalogo</p>
         <h1>{{ $heading }}</h1>
-        <p class="lead">Casas, apartamentos e coberturas selecionados em Belem e Ananindeua.</p>
+        <p class="lead">Casas, apartamentos e coberturas selecionados em Parauapebas.</p>
         @include('partials.search-form')
     </div>
 </section>

@@ -24,7 +24,7 @@ class PropertyController extends Controller
             'property' => new Property([
                 'offer' => 'venda',
                 'type' => 'apartamento',
-                'city' => 'Belem',
+                'city' => 'Parauapebas',
                 'state' => 'PA',
                 'featured' => true,
             ]),

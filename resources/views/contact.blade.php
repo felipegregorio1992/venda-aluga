@@ -36,7 +36,7 @@
             <h2>Canais diretos</h2>
             <p>{{ $site['phone_display'] }}</p>
             <p>{{ $site['email'] }}</p>
-            <p>Belem e Ananindeua - PA</p>
+            <p>Parauapebas - PA</p>
             <a class="btn btn-gold" href="{{ \App\Models\Setting::whatsappUrl() }}" target="_blank" rel="noreferrer">WhatsApp</a>
         </aside>
     </div>

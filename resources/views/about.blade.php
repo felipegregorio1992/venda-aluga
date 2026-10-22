@@ -7,7 +7,7 @@
     <div class="container">
         <p class="kicker">Sobre</p>
         <h1>Atendimento proximo, discreto e profissional.</h1>
-        <p class="lead">Daisy Vieira conduz compra, venda e locacao em Belem e Ananindeua com clareza em cada etapa: visita, proposta e contrato.</p>
+        <p class="lead">Daisy Vieira conduz compra, venda e locacao em Parauapebas com clareza em cada etapa: visita, proposta e contrato.</p>
     </div>
 </section>
 <section class="about-band compact">

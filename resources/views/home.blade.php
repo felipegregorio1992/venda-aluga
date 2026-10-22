@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Daisyvane Vieira — Imoveis Premium em Belem')
+@section('title', 'Daisyvane Vieira — Imoveis Premium em Parauapebas')
 
 @section('content')
 <section class="hero">
     <div class="hero-media">
-        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2000&q=80" alt="Casa contemporanea com piscina em Belem" width="1920" height="1080">
+        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2000&q=80" alt="Casa contemporanea com piscina em Parauapebas" width="1920" height="1080">
     </div>
     <div class="container hero-content">
         <p class="eyebrow light">Seu novo comeco esta aqui?</p>
-        <h1>Casas e apartamentos<br>para viver bem em <em>Belem.</em></h1>
+        <h1>Casas e apartamentos<br>para viver bem em <em>Parauapebas.</em></h1>
         <p class="lead">Daisy Vieira conduz com seguranca, agilidade e atendimento personalizado, encontrando o imovel ideal para o seu momento.</p>
         <div class="hero-pills">
             <span>
@@ -48,7 +48,7 @@
         <div class="about-copy">
             <p class="kicker gold">A corretora</p>
             <h2>Daisy Vieira</h2>
-            <p>Atendimento proximo, discreto e profissional para familias e investidores que buscam o imovel certo em Belem e Ananindeua. Da visita, proposta e contrato e conduzido com clareza e cuidado.</p>
+            <p>Atendimento proximo, discreto e profissional para familias e investidores que buscam o imovel certo em Parauapebas. Da visita, proposta e contrato e conduzido com clareza e cuidado.</p>
             <div class="stat-cards">
                 <article>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10l8-6 8 6v10H14v-6H10v6H4z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
@@ -97,7 +97,7 @@
             <article>
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 14c0-2 1.8-3.5 4-3.5s4 1.5 4 3.5M7 20h10M9 8V5h6v3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 11h8v9H8z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
                 <h3>Experiencia no mercado</h3>
-                <p>Conhecimento local e ampla rede de contatos em Belem e regiao.</p>
+                <p>Conhecimento local e ampla rede de contatos em Parauapebas e regiao.</p>
             </article>
         </div>
     </div>
@@ -105,7 +105,7 @@
 
 <section class="cta-band">
     <div class="cta-media">
-        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1800&q=80" alt="Skyline noturno de Belem" width="1800" height="700">
+        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1800&q=80" alt="Skyline noturno de Parauapebas" width="1800" height="700">
     </div>
     <div class="container cta-content">
         <p class="kicker gold">Vamos encontrar o seu imovel?</p>

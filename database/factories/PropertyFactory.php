@@ -14,9 +14,9 @@ class PropertyFactory extends Factory
     public function definition(): array
     {
         $title = fake()->randomElement([
-            'Cobertura duplex no Umarizal',
-            'Casa de alto padrao no Umarizal',
-            'Apartamento amplo no Nazare',
+            'Cobertura duplex no Cidade Nova',
+            'Casa de alto padrao no Nova Carajas',
+            'Apartamento amplo no Jardim Canada',
         ]);
 
         return [
@@ -27,8 +27,8 @@ class PropertyFactory extends Factory
             'type' => fake()->randomElement(['casa', 'apartamento', 'cobertura']),
             'offer' => fake()->randomElement(['venda', 'aluguel']),
             'price' => fake()->numberBetween(800000, 2500000),
-            'neighborhood' => 'Umarizal',
-            'city' => 'Belem',
+            'neighborhood' => 'Cidade Nova',
+            'city' => 'Parauapebas',
             'state' => 'PA',
             'bedrooms' => 4,
             'bathrooms' => 3,
